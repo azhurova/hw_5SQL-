@@ -2,7 +2,7 @@ import psycopg2
 
 
 def db_connect():
-    with psycopg2.connect(database="crm", user="postgres", password="331350") as conn:
+    with psycopg2.connect(database="crm", user="postgres", password="postgres") as conn:
         return conn
 
 
